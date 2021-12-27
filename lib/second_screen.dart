@@ -29,7 +29,9 @@ class SecondScreen extends StatelessWidget {
               Container(
                 height: height / 2.5,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(width / 18),
+                  borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(30),
+                      bottomRight: Radius.circular(30)),
                   image: DecorationImage(
                       image: NetworkImage(
                         mPosters.elementAt(movieIndex),

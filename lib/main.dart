@@ -60,13 +60,15 @@ class HomePage extends StatelessWidget {
               Text(
                 "Marvel's ",
                 style: TextStyle(
-                    color: kYellow, fontSize: 36, fontWeight: FontWeight.bold),
+                    color: kYellow,
+                    fontSize: width / 13.5,
+                    fontWeight: FontWeight.bold),
               ),
-              const Text(
+              Text(
                 "Collection",
                 style: TextStyle(
                     color: Colors.white,
-                    fontSize: 36,
+                    fontSize: width / 13.5,
                     fontWeight: FontWeight.bold),
               ),
               SizedBox(
